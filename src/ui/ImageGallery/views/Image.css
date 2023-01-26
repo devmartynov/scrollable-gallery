@@ -1,0 +1,8 @@
+.Image {
+    
+}
+
+.Image__object {
+    display: block;
+    object-fit: cover;
+}

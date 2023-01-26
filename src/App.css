@@ -1,0 +1,16 @@
+.App {
+    padding-top: calc(var(--header-height-sm) + 70px);
+}
+
+.App__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 1920px) {
+    .App {
+        padding-top: 0;
+    }
+}

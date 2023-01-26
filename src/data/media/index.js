@@ -1,0 +1,20 @@
+export default {
+    image0: require('./image0.jpg'),
+    image1: require('./image1.jpg'),
+    image2: require('./image2.jpg'),
+    image3: require('./image3.jpg'),
+    image4: require('./image4.jpg'),
+    image5: require('./image5.jpg'),
+    image6: require('./image6.jpg'),
+    image7: require('./image7.jpg'),
+    image8: require('./image8.jpg'),
+    image9: require('./image1.jpg'),
+    image10: require('./image2.jpg'),
+    image11: require('./image3.jpg'),
+    image12: require('./image4.jpg'),
+
+    blockImageVert1: require('./block-image-vertical-1.jpg'),
+    blockImageVert2: require('./block-image-vertical-2.jpg'),
+    blockImageHoriz1: require('./block-image-horizontal-1.jpg'),
+    blockImageHoriz2: require('./block-image-horizontal-2.jpg'),
+}

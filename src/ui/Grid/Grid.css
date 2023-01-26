@@ -1,0 +1,16 @@
+.Grid {
+    box-sizing: content-box;
+    max-width: var(--grid-max-width);
+    min-width: var(--grid-width-sm);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--grid-padding-sm);
+    padding-right: var(--grid-padding-sm);
+}
+
+@media (min-width: 1900px) {
+    .Grid {
+        padding-left: var(--grid-padding-lg);
+        padding-right: var(--grid-padding-lg);
+    }
+}

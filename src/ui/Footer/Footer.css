@@ -1,0 +1,17 @@
+.Footer {
+    min-height: 200px;
+    width: 100%;
+    background-color: var(--color-brand-black);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+
+@media (min-width: 1920px) {
+    .Footer {
+        align-items: flex-end;
+        padding-bottom: 20px;
+    }
+}

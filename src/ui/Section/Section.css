@@ -1,0 +1,62 @@
+.Section {
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.Section_green {
+    background-color: green;
+} 
+
+.Section_red {
+    background-color: red;
+}
+
+.Section_blue {
+    background-color: blue;
+}
+
+.Section_orange {
+    background-color: orange;
+}
+
+.Section_pink {
+    background-color: pink;
+}
+
+.Section_white {
+    background-color: white;
+}
+
+.Section__title {
+    max-width: 200px;
+    font-family: 'Orchidea Pro';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: var(--color-brand-black);    
+    margin-bottom: 65px;
+    margin-top: 0;
+}
+
+.Section__block {
+    margin-bottom: 56px;
+}
+
+@media (min-width: 1900px) {
+    .Section {
+        padding-bottom: 160px;
+    }
+    .Section_initial {
+        padding-top: calc(200px + var(--header-height-lg));
+    }
+    .Section__title {
+        max-width: 100%;
+        font-size: 48px;
+        line-height: 130%;
+        margin-bottom: 120px;
+    }
+    .Section__block {
+        margin-bottom: 100px;
+    }
+}

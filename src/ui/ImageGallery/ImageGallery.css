@@ -1,0 +1,28 @@
+.ImageGallery {
+    will-change: transform;
+    transform-style: preserve-3d;
+}
+
+.ImageGallery__inner {
+    display: flex;
+}
+
+.ImageGallery__image {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ImageGallery__image:first-child {
+    padding-left: 0;
+}
+
+.ImageGallery__image:last-child {
+    padding-right: 0;
+}
+
+@media (min-width: 1920px) {
+    .ImageGallery__image {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

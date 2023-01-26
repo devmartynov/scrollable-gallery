@@ -1,0 +1,73 @@
+:root {
+    --color-brand-black: #141414;
+    --color-dark: #010101;
+    --color-white: #fff;
+
+    --header-height-sm: 60px;
+    --header-height-lg: 100px;
+
+    --grid-width-sm: 400px;
+    --grid-width-lg: 1920px;
+    --grid-padding-sm: 20px;
+    --grid-padding-lg: 260px;
+    --grid-max-width: 1280px;
+}
+
+@font-face {
+    font-family: "Orchidea Pro";
+    src: url("./static/fonts/Orchidea-Pro-Medium.woff");
+    src: url("./static/fonts/Orchidea-Pro-Medium.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("./static/fonts/Manrope-Medium.woff");
+    src: url("./static/fonts/Manrope-Medium.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  font-weight: 500;
+  font-display: swap;
+  color: var(--color-brand-black);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+a {
+
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a:active {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+a:visited {
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
