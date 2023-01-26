@@ -1,9 +1,9 @@
-import Section from './ui/Section';
-import Gallery from './ui/Gallery';
-import Header from './ui/Header';
-import Footer from './ui/Footer';
-import Block from './ui/Block';
-import useImagesRepository from './data/useImagesRepository';
+import Section from './../Section';
+import Gallery from './../Gallery';
+import Header from './../Header';
+import Footer from './../Footer';
+import Block from './../Block';
+import useImagesRepository from '../../data/useImagesRepository';
 
 import './App.css';
 
@@ -34,9 +34,7 @@ function App() {
 
             <Gallery />
 
-            <Section
-                title='ut aliquip ex ea commodo consequat'
-            >
+            <Section title='ut aliquip ex ea commodo consequat'>
                 <Block
                     className='Section__block'
                     title='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
